@@ -10,6 +10,6 @@ describe "lib/xp.rb" do
   it 'prints "A second test"' do
     expect($stdout).to receive(:puts).with("XP needs Test Driven Development"), "Make sure lib/welcome.rb has a second test that is working properly."
 
-    load './lib/welcome.rb'
+    load './lib/xp.rb'
   end
 end
